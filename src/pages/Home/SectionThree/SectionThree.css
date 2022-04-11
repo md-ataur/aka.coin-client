@@ -1,0 +1,27 @@
+.section-three {
+  margin-bottom: 32px;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.guide img {
+  margin-right: 25px;
+}
+
+.guide h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #0e133a;
+}
+
+.guide p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5d6d;
+}

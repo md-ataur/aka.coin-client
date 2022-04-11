@@ -1,0 +1,12 @@
+.counter-area {
+  background: #1f33d8;
+  color: #fff;
+  padding: 40px 0;
+  border-bottom: 10px solid #ffd456;
+}
+
+.counter-area h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}

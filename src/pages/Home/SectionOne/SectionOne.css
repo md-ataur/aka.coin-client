@@ -1,0 +1,40 @@
+.section-one {
+  margin-bottom: 152px;
+}
+
+.section-one h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0 0 20px;
+  color: #0e133a;
+}
+
+.section-one p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5d6d;
+}
+
+.explore-btn a {
+  font-weight: 600;
+  color: #1f33d8 !important;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.middle-section-image {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.middle-section-image img {
+  max-width: 100%;
+}
+
+.middle-left-img {
+  padding: 0 30px 0 0;
+}

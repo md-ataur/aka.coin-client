@@ -1,0 +1,19 @@
+.nav-menu {
+  background: #f4f5fa;
+}
+
+.navbar-nav a {
+  font-size: 16px;
+  margin: 0 0 0 52px;
+  color: #0e133a !important;
+  font-weight: 500;
+  padding: 8px 0 !important;
+}
+
+.navbar-nav a:first-child {
+  margin: 0px;
+}
+
+.navbar-nav a:hover {
+  color: #1f33d8 !important;
+}
