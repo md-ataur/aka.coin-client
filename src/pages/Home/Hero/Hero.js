@@ -10,7 +10,7 @@ const Hero = () => {
 
     // Data read from the server
     useEffect(() => {
-        fetch('http://localhost:5000/hero')
+        fetch('https://infinite-depths-07881.herokuapp.com/hero')
             .then((res) => res.json())
             .then((data) => setHeros(data))
             .finally(() => {

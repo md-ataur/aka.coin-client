@@ -11,7 +11,7 @@ const MakeWallet = () => {
 
     // Data send to the server
     const onSubmit = (data) => {
-        fetch('http://localhost:5000/wallet', {
+        fetch('https://infinite-depths-07881.herokuapp.com/wallet', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -29,7 +29,7 @@ const MakeWallet = () => {
 
     // Data read from the server
     useEffect(() => {
-        fetch('http://localhost:5000/wallet')
+        fetch('https://infinite-depths-07881.herokuapp.com/wallet')
             .then((res) => res.json())
             .then((data) => setWallets(data))
             .finally(() => {
@@ -42,7 +42,7 @@ const MakeWallet = () => {
         const proceed = window.confirm('Are you sure, you want to delete?');
 
         if (proceed) {
-            const url = `http://localhost:5000/wallet/${id}`;
+            const url = `https://infinite-depths-07881.herokuapp.com/wallet/${id}`;
             fetch(url, {
                 method: 'DELETE',
             })

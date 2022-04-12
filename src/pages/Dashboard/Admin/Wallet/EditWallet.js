@@ -10,7 +10,7 @@ const EditWallet = () => {
 
     // Data read from the server
     useEffect(() => {
-        fetch(`http://localhost:5000/wallet/${id}`)
+        fetch(`https://infinite-depths-07881.herokuapp.com/wallet/${id}`)
             .then((res) => res.json())
             .then((data) => setWallet(data))
             .finally(() => {
@@ -20,7 +20,7 @@ const EditWallet = () => {
 
     // Form Handler
     const onSubmitForm = (e) => {
-        fetch(`http://localhost:5000/wallet/${id}`, {
+        fetch(`https://infinite-depths-07881.herokuapp.com/wallet/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json',

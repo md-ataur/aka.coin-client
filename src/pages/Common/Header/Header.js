@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <Navbar sticky="top" className="py-4 nav-menu" expand="lg">
+        <Navbar sticky="top" className="py-3 nav-menu" expand="lg">
             <Container>
                 <Link to="/">
                     <img src={logo} alt="" />
@@ -15,7 +15,6 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Link to="/dashboard">Dashboard</Link>
                         <Nav.Link href="#">Ecosystem</Nav.Link>
                         <Nav.Link href="#">Buy</Nav.Link>
                         <Nav.Link href="#">What is AKO?</Nav.Link>
