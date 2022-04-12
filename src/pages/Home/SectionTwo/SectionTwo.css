@@ -13,16 +13,6 @@
   min-height: 462px;
 }
 
-.wallet-left {
-  background-image: url("../../../images/middle-card1.png");
-  background-size: cover;
-}
-
-.wallet-middle {
-  background-image: url("../../../images/middle-card2.png");
-  background-size: cover;
-}
-
 .wallet-title {
   margin-bottom: 37px;
   display: flex;

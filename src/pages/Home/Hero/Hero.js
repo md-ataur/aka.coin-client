@@ -21,7 +21,7 @@ const Hero = () => {
     return (
         <div className="hero-section">
             <Container>
-                {loading && <h2 className="text-center">Loading...</h2>}
+                {loading && <h3 className="text-center">Loading...</h3>}
 
                 {!loading && (
                     <>

@@ -15,12 +15,22 @@ const Dashboard = () => {
             <h2>Dashboard</h2>
             <div className="dashboard">
                 <div className="dashboard-left">
-                    <NavLink
-                        style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                        to="/dashboard/hero/add"
-                    >
-                        Hero Section
-                    </NavLink>
+                    <div className="mb-2">
+                        <NavLink
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/dashboard/hero/add"
+                        >
+                            Hero Section
+                        </NavLink>
+                    </div>
+                    <div>
+                        <NavLink
+                            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                            to="/dashboard/wallet/add"
+                        >
+                            Wallet Section
+                        </NavLink>
+                    </div>
                 </div>
                 <div className="dashboard-right">
                     <Outlet />
