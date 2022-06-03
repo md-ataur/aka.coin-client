@@ -16,7 +16,7 @@ const EditHero = () => {
             .finally(() => {
                 setLoading(false);
             });
-    }, []);
+    });
 
     // Form Handler
     const onSubmitForm = (e) => {
